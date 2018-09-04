@@ -12,6 +12,29 @@
       ]
     },
     {
+      "name": "arrow-functional-s",
+      "description": "Generates an arrow function component in shared components",
+      "usage": "arrow-functional-s [component-name]",
+      "files": [
+        {
+          "blueprint-path": "config/blueprints/arrow-functional-s.ejs",
+          "target-path": "client/components/<%= helpers.capitalize(name) %>.js"
+        }
+      ]
+    },
+    {
+      "name": "arrow-functional-m",
+      "description": "Generates an react arrow function component in a module directory",
+      "usage": "arrow-functional-m <module-name>/<component-name>",
+      "files": [
+        {
+          "blueprint-path": "config/blueprints/arrow-functional-m.ejs",
+          "parent-path": "client/modules/<%= helpers.capitalize(parent) %>",
+          "target-path": "components/<%= helpers.capitalize(name) %>/<%= helpers.capitalize(name) %>.js"
+        }
+      ]
+    },
+    {
       "name": "dumb-m",
       "description": "Generates a dumb react component in a module directory",
       "usage": "dumb-m <module-name>/<component-name>",
