@@ -62,6 +62,7 @@ export class PostDetailPage extends React.Component {
           <p className={styles['author-name']}><FormattedMessage id="by" /> {this.props.post.name}</p>
           <p className={styles['post-desc']}>{this.props.post.content}</p>
         </div>
+        
       </div>
     );
   }

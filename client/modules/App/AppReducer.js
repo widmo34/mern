@@ -15,7 +15,6 @@ const AppReducer = (state = initialState, action) => {
       };
        
     case TOGGLE_EDIT_POST:
-    console.log(state);
       return{
         ...state,
         showEditPost: !state.showEditPost,
