@@ -20,6 +20,7 @@ function PostListItem(props) {
       <p className={styles['post-action']}><a href="#" onClick={props.onDelete}><FormattedMessage id="deletePost" /></a></p>
       <div>
         <button className={styles['post-action']}  onClick={props.onThumbUp} >thumb Up</button>
+        <button className={styles['post-action']}  onClick={props.onThumbDown} >thumb Down</button>
       
         <span>{props.post.voteCount}</span>
 

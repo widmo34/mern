@@ -20,5 +20,8 @@ router.route('/posts/:cuid').put(PostController.editPost);
 //thumUp
 router.route('/thumbUp/:cuid').put(PostController.thumbUp);
 
+//thumbDown
+router.route('/thumbDown/:cuid').put(PostController.thumbDown); 
+
 
 export default router;
