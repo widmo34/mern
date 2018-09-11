@@ -66,3 +66,20 @@
     margin-top: 16px;
   }
 }
+
+.links{
+  margin: 0 auto;
+}
+
+.links li{
+  color: gray;
+  display: inline;
+
+ 
+}
+
+.links a {
+  text-decoration: none;
+  color: gray;
+
+}
